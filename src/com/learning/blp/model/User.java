@@ -12,4 +12,12 @@ public class User {
 		this.name = name;
 	}
 
+	private int getAge() {
+		return age;
+	}
+
+	private void setAge(int age) {
+		this.age = age;
+	}
+
 }
