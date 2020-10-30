@@ -2,6 +2,7 @@ package com.learning.blp.model;
 
 public class User {
 	private String name;
+	private int age;
 
 	private String getName() {
 		return name;
@@ -14,6 +15,14 @@ public class User {
 	@Override
 	public String toString() {
 		return "User [name=" + name + "]";
+	}
+
+	private int getAge() {
+		return age;
+	}
+
+	private void setAge(int age) {
+		this.age = age;
 	}
 
 }
