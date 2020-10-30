@@ -1,6 +1,11 @@
 package com.learning.blp.model;
 
 public class User {
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	private String name;
 	private int age;
 
