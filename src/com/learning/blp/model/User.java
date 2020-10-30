@@ -2,6 +2,7 @@ package com.learning.blp.model;
 
 public class User {
 	private String name;
+	private int age;
 
 	private String getName() {
 		return name;
